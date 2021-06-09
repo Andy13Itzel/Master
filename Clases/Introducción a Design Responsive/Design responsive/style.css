@@ -1,0 +1,67 @@
+*´{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CREACIÓN LAYOUTS*/
+
+body{
+    min-height: 100vh;
+    background: darkcyan;
+}
+
+
+/*auto es remplazado por algun valor apropiado, margin: o auto desplaza contenedores en esete caso al centro*/
+.contenedor-padre{
+    background: yellowgreen;
+    min-height: 100vh;
+    width: 90%; /*contenedores padre*/
+    margin: 0 auto;
+    flex:0 0 300px ; /*FLEX-GROW, flex-shrik, flex-basis*/
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background-color: #456;
+    color:#fff;
+    flex: 0 0 300px;
+    border: 1px solid #000;
+
+}
+
+main{
+    background-color: #678;
+    color:#fff;
+    flex: 1 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.mainblocks{
+    background-color: #fff;
+    border: 4px solid black;
+    min-height: 250px;
+    flex: 1 0 20%   ;
+}
+
+/*AQUI EMPIEZA MEDIA QUERIES*/
+/*ESTILOS PARA TABLETS*/
+@media screen and (max-width:1000px) {
+    .contenedor-padre{
+     flex-direction: column;
+    }
+    
+
+}
+
+/*ESTILOS PARA CELULAR*/
+@media screen and (max-width:700px) {
+    .box5, .box6{
+        display:none;
+    }
+    
+
+}
+

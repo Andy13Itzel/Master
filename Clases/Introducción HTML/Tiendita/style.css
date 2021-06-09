@@ -1,0 +1,43 @@
+html 
+{ 
+    background: rgba(255, 255, 255, 0.877);
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: rgb(150, 57, 212);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.menu a {
+    color: rgb(130, 7, 212);
+}
+
+img{ 
+    border-width: 4px;
+    border-style: solid;
+    border-color: lightcoral;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; height: 100px;
+}
+
+h2{
+    font-family: Georgia;
+    text-align:left;
+    color: lightcoral;
+}
+
+.presentacion img{ 
+    border-width: 4px;
+    border-style: solid;
+    border-color: lightcoral;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px; height: 700px;
+}

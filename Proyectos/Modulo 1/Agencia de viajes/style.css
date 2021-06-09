@@ -1,0 +1,9 @@
+h4{
+    color: springgreen;
+}
+
+/* Es importante separar por comas los selectores y colocar cada regla de forma completa */
+#itinerary h2,#itinerary h3{
+    color: darkmagenta !important;
+}
+/* Si añado la propiedad !important digo que ese elemento tiene más peso (especificadad)

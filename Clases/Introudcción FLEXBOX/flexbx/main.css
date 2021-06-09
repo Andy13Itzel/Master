@@ -1,0 +1,48 @@
+body{
+    margin:130px;
+    padding: 130px;
+}
+
+/* a dónde queremos mover los elementos, de izq a derecha o bien de arriba a abajo*/
+.parent{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center ; /*Más usadas flex star, flex center and flex center*/
+    align-items: flex-start;
+    border-color: black;
+    border-style: groove;
+    border-radius: 4%;
+    width: 550px;
+    height: 550px;
+}
+
+.child{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    border-style: groove;
+    width: 10%;
+    height: 35px;
+    font-size: 35px;
+}
+
+.child2{
+    order: 0;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    border-style: groove;
+    width: 10%;
+    height: 35px;
+    font-size: 35px;
+}
+
+.child3{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    border-style: groove;
+    width: 10%;
+    height: 35px;
+    font-size: 35px;
+}
