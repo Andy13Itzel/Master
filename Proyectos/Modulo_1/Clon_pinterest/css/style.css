@@ -72,14 +72,13 @@ border-radius: 50%;
     padding-top: 10px;
     text-align: center;
     border-radius: 24px;
-    }
+        }
 
     .nav-link {
         width:44px;
         height:44px;
        border-radius: 50%;
        margin: 2px;
-       
         }
 
         
@@ -123,7 +122,7 @@ body{
 }
 
 .pinterest{
-margin: 0;
+margin-top: 15px;
 padding-top: 60px;
 width: 100vw;
 position: absolute;
@@ -133,8 +132,7 @@ display: grid;
 grid-template-columns: repeat(auto-fill, var(--card_width));
 grid-auto-rows: var(--row_increment);
 justify-content: center;
-background-color:none;
-border-color: none;
+background-color:white;
 }
 
 .card{
@@ -218,8 +216,7 @@ border-color: none;
                 .navbar{
                     position: fixed;
                     z-index: 100000;
-                    margin: 0px;
                     padding-top: 15px;
                     padding-bottom: 15px;
-                    box-shadow: 0 8px 8px -8px #dbd9d9
+                    box-shadow: 0px 8px 8px -10px #ffffff
                 }
