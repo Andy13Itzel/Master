@@ -9,3 +9,11 @@ function clean(){
     screen.value = ' ';
 }
     
+function calcular (){
+    try {
+        screen.value = eval(screen.value);
+    } catch (e) {
+        screen.value = 'SYNTAX ERROR';
+        
+    }
+}
