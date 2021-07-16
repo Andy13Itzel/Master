@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0ch;
+}
+
+.content-body{
+    background-color:rgba(173, 51, 204, 0.199);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-calculator{
+    width: 400px;
+    height: 300px;
+    background-color: #aaaaaa;
+    border-radius: 10px;
+    box-shadow: 2px 10px 9px 6px rgba(0,0,0,0.3);
+    padding: 20px 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px;
+    grid-gap:20px;
+}
+
+.screen{
+background-color: rgba(173, 51, 204, 0.199);
+border-radius: 10px;
+color: rgba(70, 40, 104, 0.726);
+padding: 15px;
+grid-column: 1/5;
+}
+
+.screen input{
+background: none;
+border: none;
+padding: 0;
+outline: inherit;
+font-size: 50px;
+width: 100%;
+}
+
+.btn-cal{
+    background-color: #ffff;
+}
+
+.btn-cal-radius{
+    border-radius: 15px;
+}
+
+.btn-cal input{
+    border: 0;
+    width: 100%;
+    height: 100%;
+    background-color:lavender;
+    border-radius: 10px;
+    outline: none;
+    color: #7e7e7e;
+    font-size: 25px;
+}
+
+.btn-cal .limpiar{
+    background-color: #f1efa8b0;
+}
+
+.btn-cal .igual{
+    background-color: rgba(203, 196, 245, 0.904);
+}
+
+.btn-cal :hover{
+    transition-duration: 0.4s;
+    background-color: #e710e7fb;
+    color: white;
+}
+
+.btn-igual :hover{
+    transition-duration: 0.4s;
+    background-color: #920eeb;
+    color: white;
+}
+
+.btn-limpiar :hover{
+    transition-duration: 0.4s;
+    background-color: #f7e604;
+    color: white;
+}
