@@ -20,22 +20,18 @@
     
 <div class="content-cajero">
 
-<div class="screen" id="screen1">
+<div class="screen" >
     <div class="mensaje" id="display">  
-    ¡Bienvenido! <br/>
-    Por favor, ingresa tu tarjeta
+    <h1>¡Bienvenido!</h1> 
+    <p>Por favor, selecciona una cuenta<p>
     </div>
 
    
-    <input class="cuenta" id="hidden1" type="button" value="Mali" onclick="setDisplay(this)">
-    <input class="cuenta" id="hidden2" type="button" value="Gera" onclick="setDisplay(this)">
-    <input class="cuenta" id="hidden3" type="button" value="Maui" onclick="setDisplay(this)">
-    <input class="cuenta" id="hidden4" type="hidden" value="" >
-    <input class="cuenta2" id="hidden5" type="hidden" value="1. Consultar saldo" onclick="setDisplay(this)">
-    <input class="cuenta2" id="hidden6" type="hidden" value="2. Ingresar monto" onclick="setDisplay(this)">
-    <input class="cuenta2" id="hidden7" type="hidden" value="3. Retirar monto" onclick="setDisplay(this)"> 
-    <input class="cuenta3" id="hidden8" type="hidden" value="Sí" onclick="regresar(this)">  
-    <input class="cuenta3" id="hidden9" type="hidden" value="No" onclick="home()">
+    <div id="lista-cuentas">
+
+    </div>
+
+
 </div>
 
 
@@ -66,8 +62,7 @@
     <input 
     class="cancelar"
     type="button" 
-    value="CANCEL"
-    onclick="home()">
+    value="CANCEL" onclick="getData(this)">
 </div>
 
 
@@ -131,7 +126,7 @@
     type="button" 
     value="ENTER"
     class="enter"
-    onclick="enter()">
+    onclick="calcular()">
 </div>
 
 
@@ -139,7 +134,7 @@
 <div class="btn-caj btn-caj-radius">
     <input 
     type="button" 
-    value="">
+    value="" onclick="getData(this)">
 </div>
 
 <div class="btn-caj btn-caj-radius">
@@ -159,7 +154,7 @@
 <div class="btn-caj btn-caj-radius">
     <input 
     type="button" 
-    value="" >
+    value="" onclick="getData(this)">
 </div>
 
 </div>
