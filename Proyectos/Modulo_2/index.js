@@ -40,6 +40,7 @@ function enter( ){
         }
         else {
             screen.innerHTML = "Contraseña incorrecta, ingrese de nuevo"; 
+
             clean();
         }
     } 
@@ -161,7 +162,8 @@ function setDisplay(text){
         document.getElementById('hidden8').type = 'hidden'
         document.getElementById('hidden9').type = 'hidden'
         clean();
-        validacion = false
+        validacion = false;
+        n = '';
 
        
       }
