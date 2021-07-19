@@ -133,6 +133,8 @@ function setDisplay(text){
 
     else {
     n = nombre ;
+    password.value = "";
+    passw = "";
     screen.innerHTML = "Ingrese contraseña";
     document.getElementById('hidden1').type = 'hidden'
     document.getElementById('hidden2').type = 'hidden'
