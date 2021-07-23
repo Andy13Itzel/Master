@@ -37,13 +37,13 @@ function enter( ){
             document.getElementById('hidden7').type = 'button'
             posicion = i ;
             validacion = true;
-        
+        }   
         else {
             screen.innerHTML = "Contraseña incorrecta, ingrese de nuevo"; 
 
             clean();
         }
-    
+    } 
   } 
 }
 
